@@ -113,5 +113,10 @@
   },
   "awscdkio": {
     "announce": false
+  },
+  "cdk-build": {
+    "env": {
+      "AWSLINT_BASE_CONSTRUCT": true
+    }
   }
 }
